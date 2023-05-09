@@ -1,0 +1,387 @@
+@media screen and (max-width: 900px) {
+
+    .hero-section{
+        .hero-image-container{
+            height: 80vh;
+        }
+        #heroImage{
+            height: 80vh;
+        }
+        .overlay{
+            height: 80vh;
+        }
+        #hero{
+            height: 80vh;
+        }
+
+
+        #hero{
+            .header{
+                .nav-bar{
+                    display: flex;
+                    align-items: flex-start;
+                    flex-direction: column;
+                    height: 100vh;
+                    width: 100%;
+                    justify-content: center;
+                    align-items: center;
+                    position: fixed;
+                    top: -100vh;
+                    background-color: var(--main-green);
+                    z-index: 1000;
+                    opacity: 97%;
+
+                    .active-bar{
+                        color: white;
+                    }
+
+                    li{
+                        color: white;
+                        padding-bottom: 10%;
+
+                        :hover{
+                            color: black;
+                        }
+                    }
+
+                    #close{
+                        display: initial;
+                        margin-top: 10px;
+                        i{
+                            color: black;
+                            font-size: 1.2rem;
+
+                        }
+                    }
+                }
+
+
+                img{
+                    width: 80px;
+                    z-index: 999;
+                    margin: 20px;
+                }
+                #mobile{
+                    display: flex;
+                    align-items: center;
+                    margin-right: 20px;
+
+                    i{
+                        color: white;
+                    }
+                }
+
+
+            }
+
+            .btm{
+                align-items: baseline;
+                justify-content: center;
+                position: absolute;
+                .right-container{
+                   margin-right: 0;
+                   margin-top: 50%;
+
+                   h2{
+                    font-size: 2rem;
+                   }
+
+                }
+
+            }
+
+        }
+    }
+
+    .about-us{
+        text-align: center;
+        .about-container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            .right-about{
+                width: 100%;
+                align-items: center;
+                justify-content: center;
+                padding-left: 2%;
+                padding-right: 2%;
+
+                h2{
+                    font-size: 1.3rem;
+                    padding: 2%;
+
+                }
+
+                .minor-text{
+                    font-size: 0.85rem;
+                }
+                .text-1{
+                    font-size: 0.85rem;
+                }
+
+                .type-two-container{
+                    align-self: center;
+                    justify-self: center;
+
+                    .type-two{
+                       width: 100px;
+
+                    }
+
+                    .type-two:hover{
+                        border: 2px solid black;
+                        color: black;
+                    }
+                }
+            }
+
+            .left-about{
+                .image-container{
+                    img{
+                        width: 97%;
+                        padding-right: 0;
+                        padding-left: 0;
+                    }
+                }
+
+
+            }
+        }
+    }
+
+    .works{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        .discover-text{
+            font-size: 1.3rem;
+            margin-left: 3%;
+            margin-right: 3%;
+
+        }
+        .works-container{
+            .works{
+                display: flex;
+                flex-direction: column;
+            }
+
+            @keyframes bring {
+                15%{
+                    transform: translateX(10%);
+                }
+            }
+        }
+    }
+
+    .reviews{
+        text-align: center;
+        .client-reviews{
+            background-position: top;
+            height: 60vh;
+
+            h1{
+                margin-top: 4%;
+                font-size: 1rem;
+            }
+
+            .user{
+                margin-top: 7%;
+            }
+
+            .comment-container{
+                .comment{
+                    margin-left: 2%;
+                    margin-right: 2%;
+
+                }
+            }
+        }
+    }
+
+    .section-p1{
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 1300) {
+
+    .hero-section{
+        .hero-image-container{
+            height: 80vh;
+        }
+        #heroImage{
+            height: 80vh;
+        }
+        .overlay{
+            height: 80vh;
+        }
+        #hero{
+            height: 80vh;
+        }
+
+
+        #hero{
+            .header{
+                .nav-bar{
+                    display: flex;
+                    align-items: flex-start;
+                    flex-direction: column;
+                    height: 100vh;
+                    width: 100%;
+                    justify-content: center;
+                    align-items: center;
+                    position: fixed;
+                    top: -100vh;
+                    background-color: var(--main-green);
+                    z-index: 1000;
+                    opacity: 97%;
+
+                    .active-bar{
+                        color: white;
+                    }
+
+                    li{
+                        color: white;
+                        padding-bottom: 10%;
+
+                        :hover{
+                            color: black;
+                        }
+                    }
+
+                    #close{
+                        display: initial;
+                        margin-top: 10px;
+                        i{
+                            color: black;
+                            font-size: 1.2rem;
+
+                        }
+                    }
+                }
+
+
+                img{
+                    width: 80px;
+                    z-index: 999;
+                    margin: 20px;
+                }
+                #mobile{
+                    display: flex;
+                    align-items: center;
+                    margin-right: 20px;
+
+                    i{
+                        color: white;
+                    }
+                }
+
+
+            }
+
+            .btm{
+                align-items: baseline;
+                justify-content: center;
+                position: absolute;
+                .right-container{
+                   margin-right: 0;
+                   margin-top: 30%;
+
+                   h2{
+                    font-size: 2rem;
+                   }
+
+                }
+
+            }
+
+        }
+    }
+
+    .about-us{
+        text-align: center;
+        .about-container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            .right-about{
+                width: 100%;
+                align-items: center;
+                justify-content: center;
+                padding-left: 2%;
+                padding-right: 2%;
+
+                h2{
+                    font-size: 1.3rem;
+                    padding: 2%;
+
+                }
+            }
+
+            .left-about{
+                .image-container{
+                    img{
+                        width: 97%;
+                        padding-right: 0;
+                        padding-left: 0;
+                    }
+                }
+
+
+            }
+        }
+    }
+
+    .works{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        .discover-text{
+            font-size: 1.3rem;
+            margin-left: 3%;
+            margin-right: 3%;
+
+        }
+        .works-container{
+            .works{
+                display: flex;
+                flex-direction: column;
+
+            }
+        }
+    }
+
+    .reviews{
+        text-align: center;
+        .client-reviews{
+            background-position: top;
+            height: 60vh;
+
+            h1{
+                margin-top: 4%;
+                font-size: 1rem;
+            }
+
+            .user{
+                margin-top: 7%;
+            }
+
+            .comment-container{
+                .comment{
+                    margin-left: 2%;
+                    margin-right: 2%;
+
+                }
+            }
+        }
+    }
+
+    .section-p1{
+        justify-content: space-between;
+    }
+}
+
